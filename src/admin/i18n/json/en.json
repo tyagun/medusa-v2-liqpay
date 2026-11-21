@@ -1,0 +1,78 @@
+{
+  "title": "LiqPay",
+  "sandbox": "Test mode",
+  "loading": "Loading LiqPay data…",
+  "loadError": "Couldn't load LiqPay data. Reload the page.",
+  "fields": {
+    "status": "Status",
+    "transactionId": "Transaction ID",
+    "paytype": "Payment method",
+    "card": "Card",
+    "orderId": "LiqPay order ID",
+    "refunded": "Refunded via Admin"
+  },
+  "storedHint": "The status above was saved at payment time. LiqPay has the current one.",
+  "checkStatus": "Check status",
+  "checkError": "Couldn't get the status from LiqPay",
+  "live": {
+    "title": "Now in LiqPay",
+    "notFound": "LiqPay has no record of this payment. Checked {{time}}.",
+    "amount": "Amount",
+    "paytype": "Payment method",
+    "lastChange": "Last change",
+    "message": "Message",
+    "checked": "Checked",
+    "changed": "The status changed after payment (saved: {{status}})."
+  },
+  "status": {
+    "unknown": "Unknown",
+    "verify": "Waiting for the customer to confirm",
+    "created": "Awaiting payment",
+    "success": "Paid",
+    "sandbox": "Paid (test)",
+    "failure": "Payment failed",
+    "error": "Payment error",
+    "reversed": "Refunded",
+    "processing": "Processing",
+    "prepared": "Not completed",
+    "hold_wait": "Funds on hold",
+    "wait_accept": "Charged, store not activated",
+    "wait_secure": "Under review"
+  },
+  "paytype": {
+    "card": "Card",
+    "apay": "Apple Pay",
+    "gpay": "Google Pay",
+    "privat24": "Privat24",
+    "masterpass": "Masterpass",
+    "moment_part": "Pay in parts",
+    "paypart": "Pay in parts",
+    "qr": "QR code",
+    "invoice": "Invoice",
+    "cash": "Cash"
+  },
+  "review": {
+    "nav": "LiqPay",
+    "title": "LiqPay review",
+    "intro": "Replaced checkout attempts where LiqPay shows money may have moved. Check each one in the LiqPay merchant cabinet, refund it or recover the order, then mark it reviewed. A later payment on it flags it again.",
+    "noAttempts": "Nothing to review.",
+    "signed": "Signed amount",
+    "replaced": "Replaced",
+    "notReplaced": "Not replaced",
+    "markReviewed": "Mark reviewed",
+    "notePrompt": "What did you check, and what did you do? For example: refunded in the cabinet, case 1234.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "done": "Marked as reviewed",
+    "failed": "Couldn't save the review",
+    "refundsTitle": "Refunds with an unknown outcome",
+    "refundsIntro": "LiqPay did not confirm these refunds. Further refunds on these payments are blocked until you reconcile them; see docs/payment-recovery.md in the plugin.",
+    "operation": "Operation",
+    "state": "State",
+    "started": "Started",
+    "refundState": {
+      "pending": "In progress or interrupted",
+      "unknown": "No answer from LiqPay"
+    }
+  }
+}
